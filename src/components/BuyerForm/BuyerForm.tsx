@@ -15,7 +15,7 @@ const BuyerForm = () => {
   } = useForm<IFormInputs>({ mode: "onChange" });
 
   const onSubmit = (data: IFormInputs) => {
-    console.log(data);
+    console.log(data.address);
   };
 
   return (
